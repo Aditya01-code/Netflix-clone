@@ -18,6 +18,10 @@ body{
     height: 644px;
     position: relative;
 }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .main .box{
     height: 644px;
@@ -48,6 +52,8 @@ nav button{
     position: relative;
     z-index: 10;
 }
+
+
 
 .hero{
     height: calc(100% - 100px);
@@ -337,4 +343,15 @@ footer .questions {
         max-width: 90vw;
     }
     
+}
+.language-menu {
+    position: absolute; /* Position it below the button */
+    background-color: rgb(32, 28, 28 ,0.2); /* Background color */
+    border: 1px solid #302929; /* Border for dropdown */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.language-menu .btn {
+    display: block; /* Stack buttons vertically */
+    width: 100%; /* Full width */
 }

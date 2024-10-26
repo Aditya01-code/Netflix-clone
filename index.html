@@ -12,11 +12,15 @@
         <nav>
             <span><img src="/img/logo.svg" alt=""></span>
             <div class="flex">
-                <button class="btn">English</button>
+                <div class="language-dropdown">
+                    <button class="btn bl" onclick="toggleLanguageMenu()">Lang</button>
+                    <div id="languageMenu" class="language-menu" style="display: none;"></div>
+                </div>
                 <button class="btn btn-red-sn">Sign in</button>
             </div>
         </nav>
         <div class="box">
+            <p id="content">Welcome! Please select a language.</p>
         </div>
         <div class="hero">
 
@@ -34,6 +38,10 @@
         <div class="separation"></div>
 
     </div>
+    </div>
+    
+    <script src="script.js"></script>
+        
     <section class="first">
         <div class="text">
            <span> Enjoy on your TV </span>
